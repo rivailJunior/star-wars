@@ -1,0 +1,37 @@
+/* ================================================
+// Note to candidate:
+//  This code has bad practices
+//  feel free to replace it with a better solution
+// ================================================ */
+
+*{
+	text-align: center;
+	font-size: 20px;
+}
+
+div, button{
+	margin: 0 10px;
+}
+.location_value {
+	color: red;
+}
+#title{
+	font-size: 48px;
+}
+
+#btnMyLocation, #btnResetLocation {
+	width: 300px;
+	height:50;
+}
+
+table > tbody > tr > td.field_name {
+    text-align: left;
+}
+
+table > tbody > tr > td.location_value {
+    width: 200px;
+}
+
+table.empty .help {
+    visibility: hidden;
+}
